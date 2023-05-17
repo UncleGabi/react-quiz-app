@@ -1,0 +1,56 @@
+.quiz-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 90%;
+  margin: 3rem auto;
+  padding: 1rem;
+  background-color: gold;
+  border: 1px solid transparent;
+  border-radius: 25px;
+
+  &:not(:has(div.correct)) {
+    .next {
+      cursor: not-allowed;
+    }
+  }
+
+  &__props {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+    padding: 1rem 2rem;
+  }
+
+  &__buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+
+    button {
+      width: 120px;
+      height: 60px;
+      margin-top: 15px;
+      background-color: royalblue;
+      color: white;
+      font-size: 20px;
+      outline: none;
+    }
+
+    .back {
+      background-color: tomato;
+    }
+  }
+
+  .loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+}
