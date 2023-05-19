@@ -2,7 +2,6 @@ import { useEffect, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import CircularProgressbar from "../CircularProgressbar/CircularProgressbar";
 import {
-  decrementTimer,
   selectTimerData,
   setTimer,
 } from "../../features/timerSlice/timerSlice";
@@ -34,10 +33,20 @@ function Timer(props: TimerProps) {
   }, [userAnswer]);
 
   const handleTimer = () => {
+    const endTime = new Date().getTime() + (seconds[difficulty] || 90) * 1000;
+
     dispatch(setTimer(seconds[difficulty] || 90));
 
     interval.current = setInterval(() => {
-      dispatch(decrementTimer());
+      const currentTime = new Date().getTime();
+      const remainingTime = Math.max(0, endTime - currentTime);
+      const remainingSeconds = Math.ceil(remainingTime / 1000);
+
+      if (remainingSeconds === 0) {
+        clearInterval(interval.current);
+      }
+
+      dispatch(setTimer(remainingSeconds));
     }, 1000);
   };
 

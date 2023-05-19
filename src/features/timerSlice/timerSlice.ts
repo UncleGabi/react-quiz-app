@@ -12,15 +12,10 @@ const timerSlice = createSlice({
     setTimer: (state, action) => {
       state.timer = action.payload;
     },
-    decrementTimer: (state) => {
-      if (state.timer > 0) {
-        state.timer -= 1;
-      }
-    },
   },
 });
 
 export default timerSlice.reducer;
 export const selectTimerData = (state: { timer: TimerStateType }) =>
   state.timer;
-export const { setTimer, decrementTimer } = timerSlice.actions;
+export const { setTimer } = timerSlice.actions;

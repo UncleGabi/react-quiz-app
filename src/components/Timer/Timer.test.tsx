@@ -1,9 +1,9 @@
-import { render, waitFor } from "@testing-library/react";
+import { render } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
 import { Provider } from "react-redux";
 import Timer from "./Timer";
 import { store } from "../../app/store";
-import { setTimer, decrementTimer } from "../../features/timerSlice/timerSlice";
+import { setTimer } from "../../features/timerSlice/timerSlice";
 
 jest.mock("../../app/redux-hooks");
 
@@ -25,31 +25,6 @@ describe("Timer component", () => {
     const timer = container.querySelector(".circular-progressbar__main-title");
     expect(timer).toBeInTheDocument();
     expect(timer?.innerHTML).toBe("90");
-  });
-
-  it("decrements the timer every second", async () => {
-    const dispatchSpy = jest.spyOn(store, "dispatch");
-
-    render(
-      <Provider store={store}>
-        <Timer questionNr={1} userAnswer="" numOfQuestions={true} />
-      </Provider>
-    );
-
-    await waitFor(
-      () => {
-        expect(dispatchSpy).toHaveBeenCalledWith(decrementTimer());
-      },
-      { timeout: 1000 }
-    );
-
-    await waitFor(
-      () => {
-        expect(dispatchSpy).toHaveBeenCalled();
-        expect(dispatchSpy).toHaveBeenCalledWith(decrementTimer());
-      },
-      { timeout: 2000 }
-    );
   });
 
   it("clears the timer interval when userAnswer prop changes", () => {

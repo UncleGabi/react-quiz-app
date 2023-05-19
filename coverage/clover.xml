@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1684506220007" clover="3.2.0">
-  <project timestamp="1684506220008" name="All files">
-    <metrics statements="137" coveredstatements="134" conditionals="58" coveredconditionals="55" methods="47" coveredmethods="47" elements="242" coveredelements="236" complexity="0" loc="137" ncloc="137" packages="12" files="16" classes="16"/>
+<coverage generated="1684507364124" clover="3.2.0">
+  <project timestamp="1684507364124" name="All files">
+    <metrics statements="141" coveredstatements="132" conditionals="60" coveredconditionals="55" methods="46" coveredmethods="45" elements="247" coveredelements="232" complexity="0" loc="141" ncloc="141" packages="12" files="16" classes="16"/>
     <package name="src">
       <metrics statements="3" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <file name="App.tsx" path="C:\ReactJS Program\React Quiz App\react-quiz-app\src\App.tsx">
@@ -82,11 +82,11 @@
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="CircularProgressbar.tsx" path="C:\ReactJS Program\React Quiz App\react-quiz-app\src\components\CircularProgressbar\CircularProgressbar.tsx">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="14" type="stmt"/>
-        <line num="6" count="14" type="stmt"/>
-        <line num="7" count="14" type="stmt"/>
-        <line num="8" count="14" type="stmt"/>
-        <line num="10" count="14" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="7" count="11" type="stmt"/>
+        <line num="8" count="11" type="stmt"/>
+        <line num="10" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.components.Quiz">
@@ -148,29 +148,35 @@
       </file>
     </package>
     <package name="src.components.Timer">
-      <metrics statements="20" coveredstatements="20" conditionals="10" coveredconditionals="10" methods="7" coveredmethods="7"/>
+      <metrics statements="26" coveredstatements="20" conditionals="14" coveredconditionals="12" methods="7" coveredmethods="6"/>
       <file name="Timer.tsx" path="C:\ReactJS Program\React Quiz App\react-quiz-app\src\components\Timer\Timer.tsx">
-        <metrics statements="20" coveredstatements="20" conditionals="10" coveredconditionals="10" methods="7" coveredmethods="7"/>
-        <line num="15" count="14" type="stmt"/>
-        <line num="16" count="14" type="stmt"/>
-        <line num="17" count="14" type="stmt"/>
-        <line num="18" count="14" type="stmt"/>
-        <line num="19" count="14" type="stmt"/>
-        <line num="21" count="14" type="stmt"/>
-        <line num="22" count="11" type="cond" truecount="2" falsecount="0"/>
-        <line num="23" count="10" type="stmt"/>
-        <line num="26" count="11" type="stmt"/>
-        <line num="30" count="14" type="stmt"/>
-        <line num="31" count="11" type="cond" truecount="2" falsecount="0"/>
-        <line num="32" count="4" type="stmt"/>
-        <line num="36" count="14" type="stmt"/>
-        <line num="37" count="10" type="cond" truecount="2" falsecount="0"/>
-        <line num="39" count="10" type="stmt"/>
-        <line num="40" count="2" type="stmt"/>
-        <line num="44" count="14" type="stmt"/>
-        <line num="45" count="11" type="stmt"/>
-        <line num="46" count="11" type="cond" truecount="2" falsecount="0"/>
-        <line num="49" count="14" type="stmt"/>
+        <metrics statements="26" coveredstatements="20" conditionals="14" coveredconditionals="12" methods="7" coveredmethods="6"/>
+        <line num="14" count="11" type="stmt"/>
+        <line num="15" count="11" type="stmt"/>
+        <line num="16" count="11" type="stmt"/>
+        <line num="17" count="11" type="stmt"/>
+        <line num="18" count="11" type="stmt"/>
+        <line num="20" count="11" type="stmt"/>
+        <line num="21" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="9" type="stmt"/>
+        <line num="25" count="10" type="stmt"/>
+        <line num="29" count="11" type="stmt"/>
+        <line num="30" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="35" count="11" type="stmt"/>
+        <line num="36" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="38" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="40" count="9" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="45" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="53" count="11" type="stmt"/>
+        <line num="54" count="10" type="stmt"/>
+        <line num="55" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="58" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.features">
@@ -191,7 +197,7 @@
         <line num="5" count="8" type="stmt"/>
         <line num="16" count="8" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
-        <line num="24" count="3" type="stmt"/>
+        <line num="24" count="5" type="stmt"/>
         <line num="25" count="1" type="stmt"/>
         <line num="28" count="1" type="stmt"/>
         <line num="31" count="3" type="stmt"/>
@@ -205,22 +211,20 @@
         <line num="52" count="2" type="cond" truecount="2" falsecount="0"/>
         <line num="53" count="1" type="stmt"/>
         <line num="55" count="1" type="stmt"/>
-        <line num="62" count="24" type="stmt"/>
+        <line num="62" count="17" type="stmt"/>
         <line num="74" count="8" type="stmt"/>
       </file>
     </package>
     <package name="src.features.timerSlice">
-      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="timerSlice.ts" path="C:\ReactJS Program\React Quiz App\react-quiz-app\src\features\timerSlice\timerSlice.ts">
-        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="4" count="8" type="stmt"/>
         <line num="8" count="8" type="stmt"/>
-        <line num="13" count="20" type="stmt"/>
-        <line num="16" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="17" count="3" type="stmt"/>
-        <line num="24" count="8" type="stmt"/>
-        <line num="25" count="17" type="stmt"/>
-        <line num="26" count="8" type="stmt"/>
+        <line num="13" count="21" type="stmt"/>
+        <line num="19" count="8" type="stmt"/>
+        <line num="20" count="14" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
       </file>
     </package>
   </project>
