@@ -174,6 +174,7 @@ describe("QuizPage component", () => {
     fireEvent.click(finishBtn);
 
     expect(dispatch).toHaveBeenCalledWith(toggleGameOver());
+    expect(dispatch).toHaveBeenCalledWith(setUserAnswer(""));
     expect(dispatch).toHaveBeenCalledWith(setQuestions([]));
     expect(dispatch).toHaveBeenCalledWith(resetQuestionNr());
     expect(dispatch).toHaveBeenCalledWith(resetScore());
@@ -217,5 +218,9 @@ describe("QuizPage component", () => {
     fireEvent.click(backBtn);
 
     expect(dispatch).toHaveBeenCalledWith(toggleGameOver());
+    expect(dispatch).toHaveBeenCalledWith(setUserAnswer(""));
+    expect(dispatch).toHaveBeenCalledWith(setQuestions([]));
+    expect(dispatch).toHaveBeenCalledWith(resetQuestionNr());
+    expect(dispatch).toHaveBeenCalledWith(resetScore());
   });
 });

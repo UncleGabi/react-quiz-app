@@ -21,14 +21,19 @@ function QuizPage() {
     useAppSelector(selectQuizData);
   const { timer } = useAppSelector(selectTimerData);
 
-  const handleClick = () => {
+  const resetGame = () => {
+    dispatch(toggleGameOver());
+    dispatch(setQuestions([]));
+    dispatch(resetQuestionNr());
+    dispatch(setUserAnswer(""));
+    dispatch(resetScore());
+  };
+
+  const handleNextClick = () => {
     if (questionNr < questions?.length - 1) {
       dispatch(incrementQuestionNr());
     } else {
-      dispatch(toggleGameOver());
-      dispatch(setQuestions([]));
-      dispatch(resetQuestionNr());
-      dispatch(resetScore());
+      resetGame();
     }
     dispatch(setUserAnswer(""));
   };
@@ -56,12 +61,12 @@ function QuizPage() {
           <div className="quiz-container__buttons">
             <button
               className="next"
-              onClick={handleClick}
+              onClick={handleNextClick}
               disabled={!userAnswer && timer !== 0}
             >
               {questionNr === questions.length - 1 ? "Finish" : "Next"}
             </button>
-            <button className="back" onClick={() => dispatch(toggleGameOver())}>
+            <button className="back" onClick={resetGame}>
               Back
             </button>
           </div>

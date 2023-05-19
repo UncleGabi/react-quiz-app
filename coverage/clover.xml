@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1684507364124" clover="3.2.0">
-  <project timestamp="1684507364124" name="All files">
-    <metrics statements="141" coveredstatements="132" conditionals="60" coveredconditionals="55" methods="46" coveredmethods="45" elements="247" coveredelements="232" complexity="0" loc="141" ncloc="141" packages="12" files="16" classes="16"/>
+<coverage generated="1684530639740" clover="3.2.0">
+  <project timestamp="1684530639740" name="All files">
+    <metrics statements="143" coveredstatements="134" conditionals="60" coveredconditionals="55" methods="46" coveredmethods="45" elements="249" coveredelements="234" complexity="0" loc="143" ncloc="143" packages="12" files="16" classes="16"/>
     <package name="src">
       <metrics statements="3" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <file name="App.tsx" path="C:\ReactJS Program\React Quiz App\react-quiz-app\src\App.tsx">
@@ -35,22 +35,24 @@
       </file>
     </package>
     <package name="src.Pages.QuizPage">
-      <metrics statements="13" coveredstatements="13" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
+      <metrics statements="15" coveredstatements="15" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
       <file name="QuizPage.tsx" path="C:\ReactJS Program\React Quiz App\react-quiz-app\src\Pages\QuizPage\QuizPage.tsx">
-        <metrics statements="13" coveredstatements="13" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
+        <metrics statements="15" coveredstatements="15" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
         <line num="19" count="6" type="stmt"/>
         <line num="21" count="6" type="stmt"/>
         <line num="22" count="6" type="stmt"/>
         <line num="24" count="6" type="stmt"/>
-        <line num="25" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="28" count="1" type="stmt"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
-        <line num="33" count="2" type="stmt"/>
-        <line num="36" count="6" type="stmt"/>
-        <line num="64" count="1" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="32" count="6" type="stmt"/>
+        <line num="33" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="41" count="6" type="stmt"/>
       </file>
     </package>
     <package name="src.app">
