@@ -56,10 +56,6 @@
 }
 
 @media only screen and (max-width: 800px) {
-  * {
-    font-size: 13px;
-  }
-
   .quiz-container {
     width: 100vw;
     height: 100vh;
@@ -67,6 +63,14 @@
     border: 0;
     border-radius: 0;
     font-size: 15px;
+
+    &__props {
+      font-size: 12px;
+
+      h2 {
+        text-align: center;
+      }
+    }
 
     &__buttons {
       position: absolute;
