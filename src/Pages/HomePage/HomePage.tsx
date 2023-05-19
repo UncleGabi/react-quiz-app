@@ -1,4 +1,4 @@
-import { useSelector, useDispatch } from "react-redux";
+import { useAppDispatch, useAppSelector } from "../../app/redux-hooks";
 import SelectBox from "../../components/SelectBox/SelectBox";
 import { categories, difficulties } from "../../assets/SelectBoxData";
 import {
@@ -10,8 +10,8 @@ import {
 import "./HomePage.scss";
 
 function HomePage() {
-  const dispatch = useDispatch();
-  const { gameOver, difficulty, category } = useSelector(selectQuizData);
+  const dispatch = useAppDispatch();
+  const { gameOver, difficulty, category } = useAppSelector(selectQuizData);
 
   const diffQuery =
     difficulty.toLowerCase() !== "any difficulty"

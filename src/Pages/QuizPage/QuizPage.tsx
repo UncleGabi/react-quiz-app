@@ -1,4 +1,4 @@
-import { useDispatch, useSelector } from "react-redux";
+import { useAppDispatch, useAppSelector } from "../../app/redux-hooks";
 import Timer from "../../components/Timer/Timer";
 import Quiz from "../../components/Quiz/Quiz";
 import Utils from "../../features/Utils";
@@ -12,14 +12,14 @@ import {
   toggleGameOver,
 } from "../../features/quizSlice/quizSlice";
 import { selectTimerData } from "../../features/timerSlice/timerSlice";
-import "./QuizPage.scss";
 import { CircularProgress } from "@mui/material";
+import "./QuizPage.scss";
 
 function QuizPage() {
-  const dispatch = useDispatch();
+  const dispatch = useAppDispatch();
   const { questions, questionNr, userAnswer, score, difficulty, category } =
-    useSelector(selectQuizData);
-  const { timer } = useSelector(selectTimerData);
+    useAppSelector(selectQuizData);
+  const { timer } = useAppSelector(selectTimerData);
 
   const handleClick = () => {
     if (questionNr < questions?.length - 1) {

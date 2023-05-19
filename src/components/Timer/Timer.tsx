@@ -19,10 +19,6 @@ function Timer(props: TimerProps) {
   const interval = useRef<NodeJS.Timer>();
 
   useEffect(() => {
-    console.log("timer", timer);
-  }, [timer]);
-
-  useEffect(() => {
     if (numOfQuestions) {
       handleTimer();
     }

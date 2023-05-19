@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useAppDispatch, useAppSelector } from "../../app/redux-hooks";
 import Box from "@mui/material/Box";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
@@ -19,8 +19,8 @@ import { SelectBoxProps } from "./SelectBox.d";
 export default function SelectBox(props: SelectBoxProps) {
   const { width, inputLabel, list, type } = props;
 
-  const dispatch = useDispatch();
-  const { difficulty, category } = useSelector(selectQuizData);
+  const dispatch = useAppDispatch();
+  const { difficulty, category } = useAppSelector(selectQuizData);
 
   const [selectedItem, setSelectedItem] = useState(
     type === "difficulty" ? Utils.capitalize(difficulty) : category.name || ""

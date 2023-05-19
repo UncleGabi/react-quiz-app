@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1684506220007" clover="3.2.0">
+  <project timestamp="1684506220008" name="All files">
+    <metrics statements="137" coveredstatements="134" conditionals="58" coveredconditionals="55" methods="47" coveredmethods="47" elements="242" coveredelements="236" complexity="0" loc="137" ncloc="137" packages="12" files="16" classes="16"/>
+    <package name="src">
+      <metrics statements="3" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="App.tsx" path="C:\ReactJS Program\React Quiz App\react-quiz-app\src\App.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="2" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="main.tsx" path="C:\ReactJS Program\React Quiz App\react-quiz-app\src\main.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Pages.HomePage">
+      <metrics statements="14" coveredstatements="12" conditionals="6" coveredconditionals="5" methods="3" coveredmethods="3"/>
+      <file name="HomePage.tsx" path="C:\ReactJS Program\React Quiz App\react-quiz-app\src\Pages\HomePage\HomePage.tsx">
+        <metrics statements="14" coveredstatements="12" conditionals="6" coveredconditionals="5" methods="3" coveredmethods="3"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="17" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="40" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="46" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Pages.QuizPage">
+      <metrics statements="13" coveredstatements="13" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
+      <file name="QuizPage.tsx" path="C:\ReactJS Program\React Quiz App\react-quiz-app\src\Pages\QuizPage\QuizPage.tsx">
+        <metrics statements="13" coveredstatements="13" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
+        <line num="24" count="6" type="stmt"/>
+        <line num="25" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="36" count="6" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="redux-hooks.ts" path="C:\ReactJS Program\React Quiz App\react-quiz-app\src\app\redux-hooks.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+      </file>
+      <file name="store.ts" path="C:\ReactJS Program\React Quiz App\react-quiz-app\src\app\store.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="6" type="stmt"/>
+      </file>
+      <file name="test-app-selector.ts" path="C:\ReactJS Program\React Quiz App\react-quiz-app\src\app\test-app-selector.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="13" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.assets">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="SelectBoxData.ts" path="C:\ReactJS Program\React Quiz App\react-quiz-app\src\assets\SelectBoxData.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="2" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.CircularProgressbar">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="CircularProgressbar.tsx" path="C:\ReactJS Program\React Quiz App\react-quiz-app\src\components\CircularProgressbar\CircularProgressbar.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="14" type="stmt"/>
+        <line num="6" count="14" type="stmt"/>
+        <line num="7" count="14" type="stmt"/>
+        <line num="8" count="14" type="stmt"/>
+        <line num="10" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Quiz">
+      <metrics statements="32" coveredstatements="32" conditionals="20" coveredconditionals="19" methods="10" coveredmethods="10"/>
+      <file name="Quiz.tsx" path="C:\ReactJS Program\React Quiz App\react-quiz-app\src\components\Quiz\Quiz.tsx">
+        <metrics statements="32" coveredstatements="32" conditionals="20" coveredconditionals="19" methods="10" coveredmethods="10"/>
+        <line num="18" count="10" type="stmt"/>
+        <line num="19" count="10" type="stmt"/>
+        <line num="20" count="10" type="stmt"/>
+        <line num="21" count="10" type="stmt"/>
+        <line num="22" count="10" type="stmt"/>
+        <line num="24" count="10" type="stmt"/>
+        <line num="25" count="8" type="stmt"/>
+        <line num="27" count="12" type="stmt"/>
+        <line num="30" count="10" type="stmt"/>
+        <line num="31" count="8" type="stmt"/>
+        <line num="35" count="10" type="stmt"/>
+        <line num="36" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="42" count="10" type="stmt"/>
+        <line num="43" count="30" type="stmt"/>
+        <line num="67" count="30" type="stmt"/>
+        <line num="68" count="630" type="stmt"/>
+        <line num="73" count="30" type="stmt"/>
+        <line num="76" count="10" type="stmt"/>
+        <line num="77" count="2" type="cond" truecount="3" falsecount="1"/>
+        <line num="78" count="2" type="stmt"/>
+        <line num="79" count="2" type="stmt"/>
+        <line num="81" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="84" count="1" type="stmt"/>
+        <line num="87" count="2" type="stmt"/>
+        <line num="91" count="10" type="stmt"/>
+        <line num="92" count="40" type="cond" truecount="3" falsecount="0"/>
+        <line num="94" count="10" type="stmt"/>
+        <line num="95" count="20" type="cond" truecount="3" falsecount="0"/>
+        <line num="97" count="10" type="stmt"/>
+        <line num="104" count="20" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.SelectBox">
+      <metrics statements="14" coveredstatements="14" conditionals="8" coveredconditionals="7" methods="4" coveredmethods="4"/>
+      <file name="SelectBox.tsx" path="C:\ReactJS Program\React Quiz App\react-quiz-app\src\components\SelectBox\SelectBox.tsx">
+        <metrics statements="14" coveredstatements="14" conditionals="8" coveredconditionals="7" methods="4" coveredmethods="4"/>
+        <line num="20" count="11" type="stmt"/>
+        <line num="22" count="11" type="stmt"/>
+        <line num="23" count="11" type="stmt"/>
+        <line num="25" count="11" type="stmt"/>
+        <line num="29" count="11" type="stmt"/>
+        <line num="30" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="11" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="37" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="46" count="11" type="stmt"/>
+        <line num="58" count="102" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Timer">
+      <metrics statements="20" coveredstatements="20" conditionals="10" coveredconditionals="10" methods="7" coveredmethods="7"/>
+      <file name="Timer.tsx" path="C:\ReactJS Program\React Quiz App\react-quiz-app\src\components\Timer\Timer.tsx">
+        <metrics statements="20" coveredstatements="20" conditionals="10" coveredconditionals="10" methods="7" coveredmethods="7"/>
+        <line num="15" count="14" type="stmt"/>
+        <line num="16" count="14" type="stmt"/>
+        <line num="17" count="14" type="stmt"/>
+        <line num="18" count="14" type="stmt"/>
+        <line num="19" count="14" type="stmt"/>
+        <line num="21" count="14" type="stmt"/>
+        <line num="22" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="10" type="stmt"/>
+        <line num="26" count="11" type="stmt"/>
+        <line num="30" count="14" type="stmt"/>
+        <line num="31" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="36" count="14" type="stmt"/>
+        <line num="37" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="10" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="44" count="14" type="stmt"/>
+        <line num="45" count="11" type="stmt"/>
+        <line num="46" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Constants.ts" path="C:\ReactJS Program\React Quiz App\react-quiz-app\src\features\Constants.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="5" type="stmt"/>
+      </file>
+      <file name="Utils.ts" path="C:\ReactJS Program\React Quiz App\react-quiz-app\src\features\Utils.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.quizSlice">
+      <metrics statements="19" coveredstatements="19" conditionals="2" coveredconditionals="2" methods="12" coveredmethods="12"/>
+      <file name="quizSlice.ts" path="C:\ReactJS Program\React Quiz App\react-quiz-app\src\features\quizSlice\quizSlice.ts">
+        <metrics statements="19" coveredstatements="19" conditionals="2" coveredconditionals="2" methods="12" coveredmethods="12"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="16" count="8" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="52" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="62" count="24" type="stmt"/>
+        <line num="74" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.timerSlice">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <file name="timerSlice.ts" path="C:\ReactJS Program\React Quiz App\react-quiz-app\src\features\timerSlice\timerSlice.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="13" count="20" type="stmt"/>
+        <line num="16" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="24" count="8" type="stmt"/>
+        <line num="25" count="17" type="stmt"/>
+        <line num="26" count="8" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

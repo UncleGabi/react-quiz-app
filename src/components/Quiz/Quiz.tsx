@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useAppSelector, useAppDispatch } from "../../app/redux-hooks";
+import CheckCircleOutlineRoundedIcon from "@mui/icons-material/CheckCircleOutlineRounded";
+import HighlightOffIcon from "@mui/icons-material/HighlightOff";
 import {
   incrementScore,
   selectQuizData,
@@ -7,8 +9,6 @@ import {
   setUserAnswer,
 } from "../../features/quizSlice/quizSlice";
 import { selectTimerData } from "../../features/timerSlice/timerSlice";
-import CheckCircleOutlineRoundedIcon from "@mui/icons-material/CheckCircleOutlineRounded";
-import HighlightOffIcon from "@mui/icons-material/HighlightOff";
 
 import "./Quiz.scss";
 
@@ -16,9 +16,9 @@ import { QuizProps } from "./Quiz.d";
 
 function Quiz(props: QuizProps) {
   const { questionData, userAnswer } = props;
-  const dispatch = useDispatch();
-  const { questionNr, answers } = useSelector(selectQuizData);
-  const { timer } = useSelector(selectTimerData);
+  const dispatch = useAppDispatch();
+  const { questionNr, answers } = useAppSelector(selectQuizData);
+  const { timer } = useAppSelector(selectTimerData);
   const { question, correct_answer, incorrect_answers } = questionData;
 
   useEffect(() => {
@@ -109,9 +109,14 @@ function Quiz(props: QuizProps) {
             <>
               {decodeHTMLEntities(answer)}
               {isCorrectAnswer(answer) && (
-                <CheckCircleOutlineRoundedIcon color="success" />
+                <CheckCircleOutlineRoundedIcon
+                  className="correct-icon"
+                  color="success"
+                />
               )}
-              {isIncorrectAnswer(answer) && <HighlightOffIcon color="error" />}
+              {isIncorrectAnswer(answer) && (
+                <HighlightOffIcon className="incorrect-icon" color="error" />
+              )}
             </>
           </div>
         ))}
